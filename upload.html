@@ -17,56 +17,82 @@
             </div>
         </header>
 
-        <form
-            id="upload-form"
-            action="{{ url_for('upload') }}"
-            method="POST"
-            enctype="multipart/form-data"
-        >
-            <strong>Files:</strong><br />
-            <input id="file-picker" type="file" name="file" accept="image/*" multiple />
-            <div id="msg"></div>
-            <select name="style">
-                <option value="animation">animation</option>
-                <option value="baby">baby</option>
-                <option value="painting">painting</option>
-            </select>
-            <select name="emotion">
-                <option value="happy">happy</option>
-                <option value="sad">sad</option>
-                <option value="disgusted">disgusted</option>
-            </select>
-            <select name="type">
-                <option value="gif">gif</option>
-                <option value="mp4">mp4</option>
-            </select>
-            <select name="model">
-                <option value="sol1">sol1</option>
-                <option value="sol2">sol2</option>
-            </select>
 
-            <input type="number" min="0" max="10" step="0.1" value="0.1" />
-            <input type="submit" value="Upload!" id="upload-button" />
-        </form>
-    </body>
+		<!-- Wrapper -->
+			<div id="wrapper">
+				<!-- Banner -->
+					<section id="intro" class="main">
+						<span class="icon fa-diamond major"></span>
+						<h2>Let's make your own EmoGE'T</h2>
+						<p>이미지 한 장을 업로드 해 주세요. <br>
+                            style: animation, baby, painting <br>
+                            emotion: happy, sad, disgust <br>
+                            file type: gif, mp4 <br>
+                            method: sol1, sol2 <br>
+                            중 선택 가능합니다. <br><br>
+                        </p>
+					</section>
 
-    <script>
-        $('#file-picker').change(function () {
-            var input = document.getElementById('file-picker');
+					<section id="intro" class="main">
+						<h2>- FILE UPLOAD -</h2>
+                        <form
+                            id="upload-form"
+                            action="{{ url_for('upload') }}"
+                            method="POST"
+                            enctype="multipart/form-data"
+                        >
+                            <input id="file-picker" type="file" name="file" accept="image/*" multiple />
+                            <br>
+                            <div id="msg"></div>
+                            <br>
+                            <select name="style">
+                                <option value="animation">animation</option>
+                                <option value="baby">baby</option>
+                                <option value="painting">painting</option>
+                            </select>
+                            <br>
+                            <select name="emotion">
+                                <option value="happy">happy</option>
+                                <option value="sad">sad</option>
+                                <option value="disgusted">disgusted</option>
+                            </select>
+                            <br>
+                            <select name="type">
+                                <option value="gif">gif</option>
+                                <option value="mp4">mp4</option>
+                            </select>
+                            <br>
+                            <select name="model">
+                                <option value="sol1">sol1</option>
+                                <option value="sol2">sol2</option>
+                            </select>
+                            <br>
+                            <input type="number" min="0" max="10" step="0.1" value="0.1" />
+                            <br><br/>
+                            <input class="button big" type="submit" value="UPLOAD" id="upload-button" />
 
-            for (var i = 0; i < input.files.length; i++) {
-                //koala.jpg, koala.JPG substring(index) lastIndexOf('a') koala.1.jpg
-                var ext = input.files[i].name
-                    .substring(input.files[i].name.lastIndexOf('.') + 1)
-                    .toLowerCase();
 
-                if (ext == 'jpg' || ext == 'png' || ext == 'jpeg') {
-                    $('#msg').text('Files are supported');
-                } else {
-                    $('#msg').text('Files are NOT supported');
-                    document.getElementById('file-picker').value = '';
-                }
-            }
-        });
-    </script>
+                        </form>
+					</section>
+                    </body>
+
+                    <script>
+                        $('#file-picker').change(function () {
+                            var input = document.getElementById('file-picker');
+
+                            for (var i = 0; i < input.files.length; i++) {
+                                //koala.jpg, koala.JPG substring(index) lastIndexOf('a') koala.1.jpg
+                                var ext = input.files[i].name
+                                    .substring(input.files[i].name.lastIndexOf('.') + 1)
+                                    .toLowerCase();
+
+                                if (ext == 'jpg' || ext == 'png' || ext == 'jpeg') {
+                                    $('#msg').text('Files are supported');
+                                } else {
+                                    $('#msg').text('Files are NOT supported');
+                                    document.getElementById('file-picker').value = '';
+                                }
+                            }
+                        });
+                    </script>
 </html>
