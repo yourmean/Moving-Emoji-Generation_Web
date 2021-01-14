@@ -1,18 +1,34 @@
-<!doctype html>
-<meta charset="UTF-8">
+<!DOCTYPE html>
 <html>
     <head>
-        <title>download file</title>
+        <title>TOBIGS - EmoGE'T</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     </head>
-    
+
     <body>
-        <h1>Download Page</h1>
-               
-        
-        <form action = "/filedown" method = "POST" enctype = "multipart/form-data">
-        <input type = 'text' name = 'file' />
-        <input type = "submit" />
-        </form><br><br><br>
-            
-        </body>
+        <!-- Header -->
+        <header id="header" class="alt">
+            <div class="inner">
+                <h1>EmoGE'T</h1>
+                <p>- Tobig's 11th Conference -<br />Emoji Generation by Tobigs</p>
+            </div>
+        </header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+				<!-- Banner -->
+					<section id="intro" class="main">
+						<span class="icon fa-diamond major"></span>
+						<h2>Download your emoge't</h2>
+                        <br>
+                        <form action = "/filedown" method = "POST" enctype = "multipart/form-data">
+                        <input type = 'text' name = 'file' />
+                        <br>
+                        <input type = "submit" value="DOWNLOAD" />
+                        </form><br><br><br>
+					</section>
+    </body>
 </html>
