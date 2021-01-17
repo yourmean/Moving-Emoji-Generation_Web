@@ -1,8 +1,7 @@
 # Moving-Emoji-Generation_Web
 web team
 
-13기 이유민
-14기 김민경 정재윤 한유진
+![webteam](https://user-images.githubusercontent.com/55529646/104831662-4b9cb300-58ce-11eb-85a3-336c85e42b53.jpg)
 
 웹페이지 주소 (미리보기용) https://yourmean.github.io/Moving-Emoji-Generation_Web/
 
