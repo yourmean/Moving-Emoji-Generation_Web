@@ -6,13 +6,8 @@
 
 ## DEMO SCREENSHOT
 <p align="center"><img src="https://user-images.githubusercontent.com/55529646/104742200-80552100-578d-11eb-9b2e-ab6464d9b285.jpg" width="850" height="850"></p>
-<br>
 
 ## Contributor 🌟
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-
 <table>
   <tr>
     <td align="center"><a href="https://github.com/yourmean"><img src="https://user-images.githubusercontent.com/41895063/104711276-7cf96f80-5764-11eb-8473-99c5c0dc8a8a.png" width="150" height="150"><br /><sub><b>YuMin Lee</b></sub></td>
