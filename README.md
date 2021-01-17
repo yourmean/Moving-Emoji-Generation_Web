@@ -5,7 +5,8 @@
 
 
 ## DEMO SCREENSHOT
-<img src="https://user-images.githubusercontent.com/55529646/104742200-80552100-578d-11eb-9b2e-ab6464d9b285.jpg" width="850" height="850">  
+<p align="center"><img src="https://user-images.githubusercontent.com/55529646/104742200-80552100-578d-11eb-9b2e-ab6464d9b285.jpg" width="850" height="850"></p>
+<br>
 
 
 ## Contributor 🌟
