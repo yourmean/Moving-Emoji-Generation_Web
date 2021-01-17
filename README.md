@@ -1,5 +1,5 @@
 # Moving-Emoji-Generation - Web team 📖
-
+preview : https://yourmean.github.io/Moving-Emoji-Generation_Web/
 <p align="center"><img src="https://user-images.githubusercontent.com/55529646/104831662-4b9cb300-58ce-11eb-85a3-336c85e42b53.jpg" width="850" height="485"></p>
 <br>
 
