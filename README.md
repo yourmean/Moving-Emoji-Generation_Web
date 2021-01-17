@@ -1,7 +1,7 @@
 # Moving-Emoji-Generation_Web
 web team
-
-![webteam](https://user-images.githubusercontent.com/55529646/104831662-4b9cb300-58ce-11eb-85a3-336c85e42b53.jpg)
+<p align="center"><img src="https://user-images.githubusercontent.com/55529646/104831662-4b9cb300-58ce-11eb-85a3-336c85e42b53.jpg" width="850" height="485"></p>
+<br>
 
 웹페이지 주소 (미리보기용) https://yourmean.github.io/Moving-Emoji-Generation_Web/
 
