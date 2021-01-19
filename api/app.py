@@ -12,7 +12,7 @@ import time
 
 __author__ = 'ibininja'
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='../src')
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 file_name = None
 
