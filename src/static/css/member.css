@@ -1413,7 +1413,7 @@ table.alt tbody tr td {
     -ms-flex-direction: column;
     flex-direction: column;
     padding: 8em 0 6em 0;
-    background-image: url('https://proxy.goorm.io//service/5ff68e4c5732d13b95ebf14b_dX4GnT8gnFwMm4gciIz.run.goorm.io/9080//file/load/banner.jpg?path=d29ya3NwYWNlJTJGbW92aW5nJTJGdXBsb2FkX2ZpbGVfcHl0aG9uJTJGc3JjJTJGdGVtcGxhdGVzJTJGaW1hZ2VzJTJGYmFubmVyLmpwZw==&docker_id=dX4GnT8gnFwMm4gciIz&secure_session_id=nHfJ1KWdUiPE0tVmzTJEgOpdwJXZwgps');
+    background-image: url("../../../public/banner.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
