@@ -125,7 +125,7 @@ def down_file():
         files = os.listdir("./upload_file_python/src/public/")
         for x in files:
             if(x==request.form['file']):
-                sw=1
+                sw=1 
         
         path = "public/"
         return send_file(path + request.form['file'], attachment_filename = request.form['file'], as_attachment = True)
