@@ -78,7 +78,7 @@ def upload():
     global file_name
     file_name = want + "."+ type_option
 
-    localpath1=f'/workspace/moving/upload_file_python/src/public/{want}.png' 
+    localpath1=f'../src/public/{want}.png' 
     remotepath1=f'/..../{want}.png' # server path
     
     # Connect to sever
@@ -99,7 +99,7 @@ def upload():
     router_output = channel.recv(1024)
  
 
-    localpath2=f'/workspace/moving/upload_file_python/src/public/{want}.{type_option}'
+    localpath2=f'../src/public/{want}.{type_option}'
     remotepath2=f'/..../{want}.{type_option}'
 
     sftp.get(remotepath2, localpath2)
@@ -112,7 +112,7 @@ def upload():
 
 @app.route('/upload/uploader/download')
 def down_page():
-    files = os.listdir("./upload_file_python/src/public")
+    files = os.listdir("../src/public")
     global file_name
     op = file_name
     return render_template('download.html', files=files, op=op)
@@ -122,7 +122,7 @@ def down_page():
 def down_file():
     if request.method == 'POST':
         sw = 0
-        files = os.listdir("./upload_file_python/src/public/")
+        files = os.listdir("../src/public/")
         for x in files:
             if(x==request.form['file']):
                 sw=1 
