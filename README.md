@@ -1,6 +1,6 @@
 # Moving-Emoji-Generation - Web team 📖
 preview : https://yourmean.github.io/Moving-Emoji-Generation_Web/
-<p align="center"><img src="https://user-images.githubusercontent.com/55529646/104833275-b5bb5500-58da-11eb-8d1e-72ca981ad928.jpg" width="850" height="485"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/55529646/104988631-f098c680-5a5b-11eb-97ab-c349a954672c.jpg" width="850" height="485"></p>
 <br>
 
 
